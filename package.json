@@ -10,6 +10,7 @@
     "test.e2e": "cypress run",
     "test.unit": "vitest",
     "lint": "eslint",
+    "android:open": "cap open android",
     "ios:open": "cap open ios",
     "ios:test": "xcrun simctl push booted com.etacarSystem.pushNotifiationDemo ./test.json",
     "ios:livereload": "ionic cap run ios --livereload --external --public-host=192.168.100.11",
