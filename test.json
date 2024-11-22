@@ -1,0 +1,8 @@
+{
+    "aps": {
+      "alert": {
+        "title": "test iphone",
+        "body": "some body"
+      }
+    }
+  }

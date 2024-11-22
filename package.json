@@ -9,13 +9,22 @@
     "preview": "vite preview",
     "test.e2e": "cypress run",
     "test.unit": "vitest",
-    "lint": "eslint"
+    "lint": "eslint",
+    "ios:open": "cap open ios",
+    "ios:test": "xcrun simctl push booted com.etacarSystem.pushNotifiationDemo ./test.json",
+    "ios:livereload": "ionic cap run ios --livereload --external --public-host=192.168.100.11",
+    "android:livereload": "ionic cap run android --livereload --external --public-host=192.168.100.10"
   },
   "dependencies": {
+    "@capacitor-firebase/messaging": "^6.2.0",
+    "@capacitor/android": "6.2.0",
     "@capacitor/app": "6.0.2",
+    "@capacitor/clipboard": "^6.0.2",
     "@capacitor/core": "6.2.0",
     "@capacitor/haptics": "6.0.2",
+    "@capacitor/ios": "6.2.0",
     "@capacitor/keyboard": "6.0.3",
+    "@capacitor/push-notifications": "^6.0.3",
     "@capacitor/status-bar": "6.0.2",
     "@ionic/react": "^8.0.0",
     "@ionic/react-router": "^8.0.0",

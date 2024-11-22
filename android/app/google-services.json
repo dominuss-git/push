@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "837069207940",
+    "project_id": "test-1a58a",
+    "storage_bucket": "test-1a58a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837069207940:android:85e4889cbbce723e1745d1",
+        "android_client_info": {
+          "package_name": "com.etacarSystem.pushNotifiationDemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8ZYUm-h6SFFT1GlvIEoxfuAa6_aErSUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
