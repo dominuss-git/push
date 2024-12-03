@@ -13,8 +13,8 @@
     "android:open": "cap open android",
     "ios:open": "cap open ios",
     "ios:test": "xcrun simctl push booted com.etacarSystem.pushNotifiationDemo ./test.json",
-    "ios:livereload": "ionic cap run ios --livereload --external --public-host=192.168.100.11",
-    "android:livereload": "ionic cap run android --livereload --external --public-host=192.168.100.10"
+    "ios:livereload": "ionic cap sync && ionic cap run ios --livereload --external --public-host=192.168.31.206",
+    "android:livereload": "ionic cap sync && ionic cap run android --livereload --external --public-host=192.168.31.206"
   },
   "dependencies": {
     "@capacitor-firebase/messaging": "^6.2.0",
